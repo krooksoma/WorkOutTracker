@@ -1,1 +1,0 @@
-mongodb+srv://krooksoma:H13ged1955%@cluster0.4rq8j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
