@@ -17,23 +17,21 @@ function calculateTotalWeight(data) {
 
 function populateChart(data) {
   // console.log(data);
-  // const durationsList = [];
-  // data.forEach(value => {
-  //   value.exercises.forEach(item => {
-  //     durationsList.push(item.duration);
-  //   });
-  // });
-  const durations =
-    (data &&
-      data.length &&
-      data.flatMap((exerciseData) =>
-        exerciseData.exercises.flatMap((data) => data.duration)
-      )) ||
-    [];
-    // check flatMap
-    // Destructuration does not work as done below
-    // const durations = data.map(({ totalDuration }) => totalDuration);  
-  console.log("DURATION DATA durations: ", durations);
+  const durations = [];
+  data.forEach(value => {
+    value.exercises.forEach(item => {
+      durations.push(item.duration);
+    });
+  });
+  // const durations =
+  //   (data &&
+  //     data.length &&
+  //     data.flatMap((exerciseData) =>
+  //       exerciseData.exercises.flatMap((data) => data.duration)
+  //     )) ||
+  //   [];
+    
+  
   const pounds = calculateTotalWeight(data);
   const line = document.querySelector("#canvas").getContext("2d");
   const bar = document.querySelector("#canvas2").getContext("2d");
