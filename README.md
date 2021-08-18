@@ -2,7 +2,7 @@
 
 # Workout Tracker
 
-![Screenshot](./assets/images/screenshot.png)
+![Screenshot](./public/assets/screenshot.png)
 
 
     
