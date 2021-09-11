@@ -1,12 +1,7 @@
 ![badge](https://img.shields.io/static/v1?label=license&message=MIT&color=<green>)
 
 # Workout Tracker
-
-![Screenshot](./public/assets/screenshot.png)
-
-
-    
-    
+[Link to Deployed Aplication]( https://safe-hollows-12551.herokuapp.com/)
 
 ## Table of Contents
     
@@ -17,12 +12,27 @@
 * [Testing Instructions](#test-instructions)
 * [License](#license)
 * [Questions](#questions)
+* [Tools and Technologies](#tools-and-technologies)    
+
+![Screenshot](./public/assets/screenshot.png) 
     
+
+
 
 ## Description
     A Easy to user workout tracker where you can keep a record of your routine.
     The added graphs help you understand how your workout is progressing. 
     You have the option to add data regarding either cardio or resistance workouts.
+    
+## Tools and Technologies
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Mongo.DB
+* Mongoose
+* Express.js
 
 ## Installation Instructions
     No installation necessary. 
@@ -44,7 +54,7 @@
 
 ## Questions
     For questions please refer to 
-    ![github](https://github.com/krooksoma)  
+[Linkedin](https://www.linkedin.com/in/romulo-goncalves-45602539/)
     or
     romulojusto@gmail.com
     
